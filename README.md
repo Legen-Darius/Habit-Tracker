@@ -1,2 +1,2 @@
-# Habbit-Tracker
+# Habit-Tracker
 Small project showcasing HTML/CSS Javascript to make a habit tracker 
