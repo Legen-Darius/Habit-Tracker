@@ -1,0 +1,44 @@
+
+/* Root variables */
+:root {
+    --color-white: #f1faee;
+    --color-dark-blue: #1D3557;
+    --color-blue: #457B9D;
+    --color-light-blue: #a8dadc;
+    --color-red: #e63946;
+}
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html {
+    font-size: 14px;
+}
+body {
+    background-color: var(--color-white);
+    color: var(--color-dark-blue);
+}
+
+/* Header Styles Start */
+header .navbar {
+    background-color: var(--color-red);
+    display: flex;
+    justify-content: space-between;
+}
+header .logo {
+    display: flex;
+    gap: 0.8;
+}
+header .logo img{
+    width: 5rem;
+    height: 5rem;
+    
+   
+}
